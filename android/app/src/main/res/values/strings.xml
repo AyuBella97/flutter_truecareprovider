@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">truecare2u Provider</string>
+
+    <!-- Replace "000000000000" with your Facebook App ID here. -->
+    <string name="facebook_app_id">1143629752688590</string>
+    <string name="fb_login_protocol_scheme">fb1143629752688590</string>
+    <string name="freshchat_file_provider_authority">com.example.demoapp.provider</string>
+</resources>

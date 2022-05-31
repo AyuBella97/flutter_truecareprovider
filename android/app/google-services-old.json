@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "52015926949",
+    "firebase_url": "https://truecare-e556b.firebaseio.com",
+    "project_id": "truecare-e556b",
+    "storage_bucket": "truecare-e556b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52015926949:android:0211fb67d98904c00a874c",
+        "android_client_info": {
+          "package_name": "com.example.truecare2u"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52015926949-kl2k03robuq73p955a0ma5pbajgmdi7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWbwXOGHOTMcn-DJC7nc0crmSBBMNTMNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52015926949-kl2k03robuq73p955a0ma5pbajgmdi7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52015926949:android:b00a2e67ca2390e60a874c",
+        "android_client_info": {
+          "package_name": "com.example.truecare2uprovider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52015926949-kl2k03robuq73p955a0ma5pbajgmdi7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWbwXOGHOTMcn-DJC7nc0crmSBBMNTMNY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52015926949-kl2k03robuq73p955a0ma5pbajgmdi7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
