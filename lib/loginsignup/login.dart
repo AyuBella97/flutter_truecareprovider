@@ -63,8 +63,6 @@ class _LoginSignupPageState extends State<LoginPage> {
   } 
 
   void signIn() async {
-    WidgetsFlutterBinding.ensureInitialized();
-    await Firebase.initializeApp();
     if (formKey.currentState != null) {
       formKey.currentState?.validate();
       setState(() {

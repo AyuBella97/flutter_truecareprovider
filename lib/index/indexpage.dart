@@ -1,28 +1,24 @@
 import 'package:TrueCare2u_flutter/appointment/appointmentindex.dart';
-import 'package:TrueCare2u_flutter/freshchat/freschat.dart';
 import 'package:TrueCare2u_flutter/myaccount/myaccount.dart';
-
 import '../chat/chatindex.dart';
-
-import '../appointment/appointment.dart';
 import '../helper/constants.dart';
 import '../helper/helperfunctions.dart';
 import '../loginsignup/loginregister.dart';
-import '../videocall/videocall.dart';
-
-import '../location/locationPage.dart';
-import '../chat/chatroom.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import '../main.dart';
 import './tabPage/tabZero.dart';
-import './tabPage/tabOne.dart';
-import '../profile/profile.dart';
 import '../models/shared_configs.dart';
 
 class IndexPage extends StatefulWidget {
   final int index;
   IndexPage(this.index);
 
+  void main() async {
+    WidgetsFlutterBinding.ensureInitialized();
+    await Firebase.initializeApp();
+    runApp(MyApp());
+  }
   // final VoidCallback loginCallback;
 
   @override
